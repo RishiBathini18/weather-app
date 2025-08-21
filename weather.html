@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="background-overlay">
+        <div class="weather-card">
+            <h1 class="app-title">☀️ Weatherly</h1>
+            <p class="tagline">Your daily weather companion</p>
+            
+            <div class="search-section">
+                <input type="text" placeholder="Enter your city..." id="searchInput">
+                <button id="searchBtn">Search</button>
+            </div>
+
+            <div class="weather-info hidden" id="weatherInfo">
+                <img id="icon" src="" alt="Weather Icon" />
+                <h2 id="location">City Name</h2>
+                <p id="temperature">25°C</p>
+                <p id="description">Clear Sky</p>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
